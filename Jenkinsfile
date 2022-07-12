@@ -99,6 +99,7 @@ pipeline{
                 """
             }
         }
+    }
 
     post {
         always {
@@ -121,5 +122,3 @@ pipeline{
         }
 
     }
-
-}
