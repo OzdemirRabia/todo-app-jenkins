@@ -10,7 +10,7 @@ const Header = () => {
         <h6 className="text-center mt-5">
           This app has been developed by Clarusway Developers.
         </h6>
-        <h1 className="text-center mt-5 header-text">Clarus Todos</h1>
+        <h1 className="text-center mt-5 header-text">Rabia Todos</h1>
       </div>
     </div>
   );
