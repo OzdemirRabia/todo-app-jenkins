@@ -26,7 +26,7 @@ resource "aws_instance" "managed_nodes" {
   instance_type = "t2.micro"
   key_name = "firstkey"
   vpc_security_group_ids = [aws_security_group.tf-sec-gr.id]
-  iam_instance_profile = "jenkins-project-profile"
+  iam_instance_profile = "jenkins-project-profile3"
   tags = {
     Name = "ansible_${element(var.tags, count.index )}"
     stack = "ansible_project"
