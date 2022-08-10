@@ -79,7 +79,10 @@
         remote_src: True
 
     - name: run the awscli
-      shell: ./aws/install
+      command:
+      args:
+        cmd: "./aws/install"
+        creates: /usr/local/bin/aws
 
     - name: log in to AWS ec2-user
       shell: |
